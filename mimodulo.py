@@ -1,6 +1,12 @@
-# mimodulo.py
-def saludar(nombre):
-    print(f"Hola, {nombre}!")
+# mi_modulo.py
 
-def despedirse(nombre):
-    print(f"Adiós, {nombre}!")
+def saludar(nombre):
+    return f"Hola, {nombre}!"
+
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+    def __str__(self):
+        return f"Nombre: {self.nombre}, Edad: {self.edad}"
