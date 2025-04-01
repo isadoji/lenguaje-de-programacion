@@ -1,7 +1,3 @@
-# mi_modulo.py
-
-def saludar(nombre):
-    return f"Hola, {nombre}!"
 
 class Persona:
     def __init__(self, nombre, edad):
